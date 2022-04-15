@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cadastro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="70dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Selecionar"
+            android:textSize="58sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="250dp">
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:hint="FIXA"
+            android:textSize="35sp"
+            android:textAlignment="center"/>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:hint="EXTRA"
+            android:textSize="35sp"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
